@@ -13,7 +13,7 @@
 
 import java.util.Scanner;
 
-public class EJERCICIO6 {
+public class EJERCICIO006 {
 
     public static void main(String[] args) {
 

@@ -7,7 +7,7 @@
 //**Datos de entrada:** `double` × 4 precios, `int` índice, `double` nuevo precio
 import java.util.Scanner;
 
-public class EJERCICIO7 {
+public class EJERCICIO007 {
 
     public static void main(String[] args) {
 
