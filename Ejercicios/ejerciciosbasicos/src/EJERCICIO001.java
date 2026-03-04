@@ -22,7 +22,7 @@
 
 import java.util.Scanner;
 
-public class EJERCICIO1 {
+public class EJERCICIO001 {
 
     public static void main(String[] args) {
 

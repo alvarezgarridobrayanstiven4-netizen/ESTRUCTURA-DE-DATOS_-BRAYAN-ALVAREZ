@@ -16,7 +16,7 @@
 
 import java.util.Scanner;
 
-public class EJERCICIO2 {
+public class EJERCICIO002 {
 
     public static void main(String[] args) {
 

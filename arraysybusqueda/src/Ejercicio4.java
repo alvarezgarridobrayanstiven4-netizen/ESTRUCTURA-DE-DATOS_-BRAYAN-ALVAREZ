@@ -6,11 +6,19 @@
 //  - **Algoritmo a usar:** **Búsqueda Binaria**. 
 // Es eficiente para buscar códigos numéricos en una lista que ya está organizada.
 
+
+
+import java.util.Scanner;
+
 public class Ejercicio4 {
     public static void main(String[] args) {
 
-        int[] codigos = {111, 222, 333, 444, 555};
-        int codigoIngresado = 333;
+        Scanner sc = new Scanner(System.in);
+
+        int[] codigos = {111, 222, 333, 444, 555}; 
+
+        System.out.print("Ingrese su código de acceso: ");
+        int codigoIngresado = sc.nextInt();
 
         int inicio = 0;
         int fin = codigos.length - 1;
@@ -34,5 +42,8 @@ public class Ejercicio4 {
         } else {
             System.out.println("Acceso denegado.");
         }
+
+        sc.close();
     }
 }
+
